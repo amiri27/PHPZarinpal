@@ -80,17 +80,17 @@ If you want, you can also use below methods (Special features)
 This method is suitable for those sellers whose benefit from entered price must be distributed in a special way. For example you own a web site that presents ceremony services and you have some contributions with several contractors. In this way you would keep some money and settle the rest of it to the contractors' account.
 ```php
 $zp->sharedPay([
-	'zp1.1' => [
+	'zp.1.1' => [
 		'amount' => '1200',
 		'description' => 'Testing Profit Partnership',
 	],
-	'zp45.86' => [
+	'zp.4555.3' => [
 		'amount' => '5500',
 		'description' => 'Testing Tax',
 	],
 ]);
 ```
-The line above means that if the transaction was successful amount of 1200 Toman from the main transaction is sent to 1st account (zp1.1) and amount of 5500 Toman is sent to 2nd account number (zp45.86) and all the procedure is explained and saved.
+The line above means that if the transaction was successful amount of 1200 Toman from the main transaction is sent to 1st account (zp.1.1) and amount of 5500 Toman is sent to 2nd account number (zp.4555.3) and all the procedure is explained and saved.
 ### Create Authority with Long Lifetime
 ```php
 $zp->setExpireIn('1800'); //Set expire time (in second)
