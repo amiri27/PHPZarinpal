@@ -125,7 +125,7 @@ $zp->getPaymentURL(); //use MZarinpal's web gate
 Unfortunately, I did not have time to do this. But the documents will be completed soon. by looking at the codes, you can also see how they are used.
 
 ## Contributing
-Contributions are more than welcome! See [CONTRIBUTING.md](https://github.com/jwilsson/spotify-web-api-php/blob/master/CONTRIBUTING.md) for more info. 
+Contributions are more than welcome! See [CONTRIBUTING.md](https://github.com/ffb343/PHPZarinpal/blob/master/CONTRIBUTING.md) for more info. 
 Please submit PRs or just file an issue if you see something broken or in need of improving.
 ## License
 MIT license. Please see [LICENSE.md](https://github.com/ffb343/PHPZarinpal/blob/master/LICENSE) for more info.
